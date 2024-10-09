@@ -1,15 +1,14 @@
-// FORMULA Total Due is determined by: Food Cost + Tax + Tip
+const identifier = "value";
 
-// sample inputs
-var foodCost = 79.25;
-var tax = 6.54;
-var tip = 12.0;
+const foodCost = 79.25;
+const tax = 6.54;
+let tip = (12).toFixed(2);
+// Wrap 12 into () so it calculates number OBJECT THEN includes 2 decimals
 
-// Calculations
-var totalDue = foodCost + tax + tip;
+// calculations
+const totalDue = foodCost + tax + tip;
 
-// output
-// console.log(totalDue);
-console.log("Food cost is " + foodCost + " and tax is " + tax);
-console.log("Tip is " + tip.toFixed(2));
-console.log("Total Due is " + totalDue);
+console.log(`Food cost is $${foodCost} and tax is $${tax}.
+    Tip is $${tip}.
+    Total Due is $${totalDue}.
+    `);
