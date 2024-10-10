@@ -29,6 +29,6 @@ if (studentMajor === BIOL) {
   console.log("Major: " + studentMajor);
   console.log("Advising Location: Westly Hall, Room 310");
 } else {
-  console.log("Unknown");
-  console.log("Unknown");
+  console.log("<Unknown>");
+  console.log("<Unknown>");
 }
